@@ -1,0 +1,33 @@
+.container {
+  height: 5rem;
+  border-bottom: 1px solid var(--gray-800);
+}
+
+.content {
+  max-width: 1120px;
+  height: 5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  nav {
+    display: flex;
+
+    gap: 1rem;
+  }
+
+  div {
+    padding: 3px;
+    background: linear-gradient(100deg, var(--purple) 0%, var(--white) 100%);
+    border-radius: 50%;
+    line-height: 0;
+
+    img {
+      border: 0.25rem solid var(--purple);
+      border-radius: 25px;
+    }
+  }
+}
