@@ -17,8 +17,8 @@ function Header() {
           <Image 
             src="https://github.com/Tharlys10.png"
             alt="Avatar" 
-            width={50}
-            height={50}
+            width={45}
+            height={45}
           />
         </div>
       </div>

@@ -4,4 +4,5 @@ module.exports = {
     domains: ['github.com']
   },
   reactStrictMode: true,
+  
 }

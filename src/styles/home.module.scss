@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 5rem);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .information {
+    font-size: 1.5rem;
+
+    h1 {
+      margin: 0;
+      padding: 0;
+
+      font-size: 2.5rem;
+
+      span {
+        color: var(--purple);
+      }
+    }
+
+    .socialNetwork {
+      display: flex;
+
+      gap: 0.5rem;
+    }
+  }
+
+  .image {
+  }
+}
