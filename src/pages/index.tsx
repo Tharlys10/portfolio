@@ -1,18 +1,19 @@
-import { GetServerSideProps } from 'next'
+import { GetStaticProps } from 'next'
 
 import { Header } from '../components/Header'
 
 export default function Home() {
   return (
     <>
-      <Header />
+    Ok
     </>
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async () => {
+export const getStaticProps: GetStaticProps = async () => {
 
   return {
-    props: {}
+    props: {},
+    revalidate: 60 * 60 * 60 * 24 // 24 hrs
   }
 }
