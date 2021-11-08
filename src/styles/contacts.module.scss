@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  height: calc(100vh - 5rem);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .contactsInformation {
+    width: 650px;
+
+    h1 {
+      margin-bottom: 2rem;
+      span {
+        color: var(--purple);
+      }
+    }
+
+    p {
+      line-height: 1.5rem;
+    }
+
+    div {
+      margin-top: 1rem;
+
+      span {
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+    }
+
+    .socialNetworkIcons {
+      display: flex;
+      flex-direction: row;
+
+      gap: 1rem;
+    }
+  }
+}

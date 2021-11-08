@@ -16,7 +16,7 @@ function Header() {
           <Link href="/"><a className={asPath === '/' ? styles.active : ''}> Home</a></Link>
           <Link href="/about"><a className={asPath === '/about' ? styles.active : ''}>Sobre</a></Link>
           <a href="#">Projetos</a>
-          <a href="#">Contato</a>
+          <Link href="/contacts"><a className={asPath === '/contacts' ? styles.active : ''}>Contato</a></Link>
         </nav>
 
         <div>
