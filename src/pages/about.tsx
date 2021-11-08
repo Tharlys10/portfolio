@@ -9,7 +9,7 @@ export default function About(){
   return (
     <div className={styles.container}>
       <div className={styles.contentInformation}>
-        <Image src="/images/about.png" alt="About" width={650} height={500}/>
+        <Image src="/images/about.png" alt="About" width={750} height={500}/>
 
         <div className={styles.information}>
           <h1><span>&lt;</span>Tharlys Alves de Almeida<span>/&gt;</span></h1>
@@ -65,15 +65,11 @@ export default function About(){
           <div className={styles.cardMin}></div>
           <div className={styles.cardMin}></div>
           <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
         </div>
       </div>
 
       <div className={styles.card}>
         <div className={styles.cardIcons}>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
           <div className={styles.cardMin}></div>
           <div className={styles.cardMin}></div>
           <div className={styles.cardMin}></div>
