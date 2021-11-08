@@ -30,7 +30,7 @@
   }
 }
 
-.cart {
+.card {
   height: auto;
   width: 95vw;
 
@@ -46,11 +46,11 @@
   justify-content: space-between;
   align-items: center;
 
-  .cartInformation {
+  .cardInformation {
     width: 20rem;
   }
 
-  .cartIcons {
+  .cardIcons {
     width: 80%;
 
     display: flex;
@@ -59,7 +59,7 @@
     gap: 1rem;
   }
 
-  .cartMin {
+  .cardMin {
     height: 5rem;
     width: 5rem;
 

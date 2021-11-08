@@ -32,8 +32,8 @@ export default function About(){
         </div>
       </div>
       
-      <div className={styles.cart}>
-      <div className={styles.cartInformation}>
+      <div className={styles.card}>
+      <div className={styles.cardInformation}>
           <h2>Habilidades</h2>
           <span>
             Tecnologias que mais utilizo no
@@ -42,63 +42,63 @@ export default function About(){
           </span>
         </div>
 
-        <div className={styles.cartIcons}>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
+        <div className={styles.cardIcons}>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
         </div>
       </div>
 
-      <div className={styles.cart}>
-        <div className={styles.cartIcons}>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
-          <div className={styles.cartMin}></div>
+      <div className={styles.card}>
+        <div className={styles.cardIcons}>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin}></div>
         </div>
 
-        <div className={styles.cartInformation}>
+        <div className={styles.cardInformation}>
           <h2>Ferramentas</h2>
           <span>
             Principais ferramentas que utilizo
