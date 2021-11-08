@@ -24,9 +24,9 @@ export default function Home() {
             <FaRocket size={25}/>
           </div>
         </div>
-        <div className={styles.image}>
-          <Image src="/images/web-dev-home.png" alt="Computer" width={500} height={500}/>
-        </div>
+        
+        <Image src="/images/web-dev-home.png" alt="Computer" width={500} height={500}/>
+       
       </div>
     </>
   )

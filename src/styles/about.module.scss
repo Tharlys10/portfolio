@@ -7,23 +7,19 @@
   justify-content: space-evenly;
 
   .information {
-    font-size: 1.5rem;
+    max-width: 720px;
 
     h1 {
-      margin: 0;
-      padding: 0;
-
-      font-size: 2.5rem;
+      font-weight: bold;
 
       span {
         color: var(--purple);
       }
     }
 
-    .socialNetwork {
-      display: flex;
-
-      gap: 0.5rem;
+    p {
+      margin-top: 1rem;
+      line-height: 1.75rem;
     }
   }
 }
