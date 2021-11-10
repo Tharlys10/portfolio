@@ -70,5 +70,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: box-shadow 0.8s;
+
+    &:hover {
+      box-shadow: 3px 4px var(--gray-300);
+
+      svg {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+    }
   }
 }

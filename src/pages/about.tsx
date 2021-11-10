@@ -1,5 +1,11 @@
 import { GetStaticProps } from "next"
 import Image from 'next/image'
+import { FaNodeJs, FaReact, FaVuejs } from "react-icons/fa";
+import { SiExpress, SiGoland, SiJavascript, SiNestjs, SiNextdotjs, SiNuxtdotjs, SiPostgresql, SiRedis, SiSqlite, SiTypescript } from 'react-icons/si'
+import { GrDocker, GrGraphQl } from 'react-icons/gr'
+import { DiMongodb } from 'react-icons/di'
+import ReactTooltip from 'react-tooltip'
+
 
 import styles from '../styles/about.module.scss'
 
@@ -43,28 +49,57 @@ export default function About(){
         </div>
 
         <div className={styles.cardIcons}>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
-          <div className={styles.cardMin}></div>
+          <div className={styles.cardMin} data-tip="JavaScript">
+            <SiJavascript size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="TypeScript">
+            <SiTypescript size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="NodeJS">
+            <FaNodeJs size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="ReactJS">
+            <FaReact size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="NestJS">
+            <SiNestjs size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="NextJS">
+            <SiNextdotjs size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="Golang">
+            <SiGoland size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="VueJS">
+            <FaVuejs size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="NuxtJS">
+            <SiNuxtdotjs size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="React Native">
+            <FaReact size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="Postgres">
+            <SiPostgresql size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="Docker">
+            <GrDocker size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="Express">
+            <SiExpress size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="GraphQL">
+            <GrGraphQl size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="MongoDB">
+            <DiMongodb size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="SQLite">
+            <SiSqlite size={30} />
+          </div>
+          <div className={styles.cardMin} data-tip="Redis">
+            <SiRedis size={30} />
+          </div>
         </div>
       </div>
 
@@ -103,6 +138,8 @@ export default function About(){
           </span>
         </div>
       </div>
+
+      <ReactTooltip textColor="var(--white)" backgroundColor="var(--purple)"/>
     </div>
   )
 }
